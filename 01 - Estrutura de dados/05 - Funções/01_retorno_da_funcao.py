@@ -6,7 +6,7 @@ def retorna_antecessor_e_sucessor(numero):
     antecessor = numero - 1
     sucessor = numero + 1
 
-    return antecessor, sucessor
+    return antecessor, sucessor #obs: esses valores são retornados em uma tupla
 
 
 print(calcular_total([10, 20, 34]))  # 64
